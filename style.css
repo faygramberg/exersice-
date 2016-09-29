@@ -2,6 +2,19 @@
 	box-sizing: border-box;
 }
 
+.name {
+	position: relative;
+}
+
+h1 {
+	color: black;
+}
+
+.nav {
+	float: right;
+	border: 2px solid black;
+}
+
 ul.nav {
 	list-style: none;
 	padding: 0;
@@ -11,5 +24,9 @@ ul.nav {
 
 ul.nav li {
 	display: inline;
+
+}
+
+a:link {
 	text-decoration: none;
 }
