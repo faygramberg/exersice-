@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+ul.nav {
+	list-style: none;
+	padding: 0;
+	color: black;
+
+}
+
+ul.nav li {
+	display: inline;
+	text-decoration: none;
+}
