@@ -6,13 +6,25 @@
 	position: relative;
 }
 
+/*Text-decoration doesn't work*/
+
+a h1:hover {
+	text-decoration: none;
+}
+
+/*Color works*/
+
+a h1:hover {
+	color: blue;
+}
+
 h1 {
 	color: black;
 }
 
 .nav {
 	float: right;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 }
 
 ul.nav {
@@ -27,6 +39,30 @@ ul.nav li {
 
 }
 
-a:link {
+li a:link {
 	text-decoration: none;
+	color: black;
 }
+
+li a:hover {
+	color: blue;
+}
+
+.wrapper {
+
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
