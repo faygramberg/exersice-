@@ -82,5 +82,10 @@ h5 {
 	font-size: 20px;
 }
 
+.address {
+	text-decoration: none;
+	color: blue;
+	font-style: italic;
+}
 
 
