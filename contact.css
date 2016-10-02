@@ -45,35 +45,6 @@ body {
 	color: #404040;
 }
 
-.wrapper {
-	clear: right;
-}
-
-
-img {
-	width: 270px;
-	height: 270px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	float: left;
-}
-
-.image-link {
-	color: #404040;
-	text-decoration: none;
-}
-
-
-h4 {
-	font-family: 'Montserrat';
-  	font-style: normal;
- 	font-weight: 400;
- 	font-size: 14px;
- 	text-transform: uppercase;
- 	text-align: center;
-}
-
 .nav-button {
 	text-decoration: none;
 }
@@ -86,9 +57,31 @@ ul li {
 	display: inline-block;
 }
 
+.wrapper {
+	clear: right;
+	width: 1150px;
+	height: 800px;
+	margin-left: 40px;
+}
 
+.wrapper ul {
+	list-style: none;
+}
 
+.wrapper ul li {
+	display: block;
+}
 
+h4 {
+	font-family: 'Print Clearly';
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+h5 {
+	font-family: 'Print Clearly';
+	font-size: 20px;
+}
 
 
 
