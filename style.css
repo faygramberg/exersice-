@@ -6,34 +6,53 @@ body {
 	background-color: #faf9f4;
 }
 
-.name {
-	color: black;
-}
-
-a.name {
+.header {
+	color: #404040;
 	text-decoration: none;
+	font-family: 'Print Clearly';
+	text-transform: uppercase;
 }
 
 .nav {
 	float: right;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 100;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.nav-button {
+	color: black;
+	padding: 10px;
+}
+
+.nav-button:hover {
+	color: #404040;
 }
 
 .wrapper {
 	clear: right;
 }
 
-.image {
+img {
 	width: 270px;
 	height: 270px;
 	margin: 10px;
 	float: left;
 }
 
-.image-name {
+.image-link {
+	color: #404040;
+}
+
+
+h4 {
 	font-family: 'Montserrat';
   	font-style: normal;
  	font-weight: 400;
  	text-transform: uppercase;
+ 	text-align: center;
 }
 
 a {
