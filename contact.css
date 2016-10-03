@@ -12,6 +12,7 @@ body {
 	text-transform: uppercase;
 	margin-left: 30px;
 	margin-top: 55px;
+	width: 260px;
 }
 
 .header-link {
@@ -87,5 +88,26 @@ h5 {
 	color: blue;
 	font-style: italic;
 }
+
+.info {
+	float: left;
+}
+
+img {
+	width: 600px;
+	display: block;
+	margin-bottom: 20px;
+	-webkit-filter: opacity(50%); 
+    filter: opacity(50%);
+}
+
+.sketches {
+	float: left;
+	margin-left: 300px;
+	margin-top: 50px;
+
+}
+
+
 
 
